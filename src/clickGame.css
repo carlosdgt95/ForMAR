@@ -1,0 +1,89 @@
+/* styles.css */
+body {
+    background: url('/public/img/fondo.png') no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Garamond', serif;
+    color: #fff;
+  }
+  
+  button {
+    background-color: #6f5e7e; /* Color de varita */
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  button:hover {
+    background-color: #df25e6; /* Color al hacer hover */
+    transform: scale(1.05);
+  }
+  
+  /* Agregar estilos específicos para el modal o elementos adicionales */
+  /* Estilo para los botones de respuesta */
+.button {
+    background-color: #4B3C2A; /* Color oscuro tipo madera */
+    color: #f0e4d7; /* Color claro para el texto */
+    border: 2px solid #B7A99A; /* Bordes dorados */
+    border-radius: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    font-family: 'Garamond', serif; /* Tipo de letra estilo Harry Potter */
+    font-size: 16px; /* Tamaño de fuente */
+}
+
+.button:hover {
+    background-color: #6f5e7e; /* Color más claro al hacer hover */
+    transform: scale(1.05); /* Efecto de agrandar */
+}
+
+.button:active {
+    transform: scale(0.95); /* Efecto de reducción al hacer clic */
+}
+/* Estilo para los botones de regalo */
+.button-regalo {
+    background-color: #4B3C2A; /* Color tipo madera */
+    color: #f0e4d7; /* Color claro para el texto */
+    border: 2px solid #B7A99A; /* Bordes dorados */
+    border-radius: 10px;
+    padding: 12px 24px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    font-family: 'Garamond', serif; /* Tipo de letra estilo Harry Potter */
+    font-size: 16px; /* Tamaño de fuente */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para efecto de profundidad */
+}
+
+.button-regalo:hover {
+    background-color: #6f5e7e; /* Color más claro al hacer hover */
+    transform: scale(1.05); /* Efecto de agrandar */
+}
+
+.button-regalo:active {
+    transform: scale(0.95); /* Efecto de reducción al hacer clic */
+}
+
+/* Estilo para el botón de descargar cupones */
+.button-descargar {
+    background-color: #3A8E3B; /* Color verde */
+    border: none; /* Sin borde */
+    border-radius: 10px;
+    padding: 12px 24px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    color: white;
+    font-weight: bold;
+    font-family: 'Garamond', serif; /* Tipo de letra estilo Harry Potter */
+}
+
+.button-descargar:hover {
+    background-color: #4CAF50; /* Color más claro al hacer hover */
+    transform: scale(1.05); /* Efecto de agrandar */
+}
+.alert-error {
+    color: red;
+    font-weight: bold;
+  }
+  
